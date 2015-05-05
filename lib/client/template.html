@@ -1,0 +1,13 @@
+<template name="tpioComments">
+    <div class="container">
+        {{#each commentData}}
+            {{> comment}}
+        {{/each}}
+    </div>
+</template>
+
+<template name="comment">
+    <div class="comment">
+        <p>{{message}}</p>
+    </div>
+</template>
