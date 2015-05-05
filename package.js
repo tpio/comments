@@ -14,7 +14,7 @@ both = ['client','server'];
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  //api.addFiles('comments.js');
+  api.use('matb33:collection-hooks@0.7.12');
   api.use(
     [
       'templating'
